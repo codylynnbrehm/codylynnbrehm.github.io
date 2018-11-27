@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -15,11 +16,17 @@
   <section class="container">
     <header>
       <img src="images/status_bar.png">
-      <img src="images/bus_stop_info.png">
+      <nav>
+        <i class="fas fa-chevron-left fa-2x"></i>
+        <h1>Washington & State Avenue</h1>
+        <i class="fas fa-ellipsis-h fa-2x"></i>
+        <h3>0.6 miles · <i class="fas fa-walking"></i> 2 min walk to stop</h3>
+      </nav>
     </header>
 
     <switcher>
-      <img src="images/switcher.png">
+      <div class="next">Next Arriving</div>
+      <div class="timetable">Timetable</div>
     </switcher>
 
     <div>
@@ -35,8 +42,8 @@
       </table>
 
       <div class="direction-eastbound">
-        <h1>EASTBOUND</h1>
-        <img src="images/arrow_up.png" class="up-arrow">
+        <h2>EASTBOUND</h2>
+        <i class="fas fa-chevron-up"></i>
       </div>
 
       <table>
@@ -45,20 +52,20 @@
             <td class="bus-line">60</td>
             <td class="bus-destination">RANDLOPH/ </br> HARBOR DRIVE <br><br> <p class="frequency"> EVERY 20 MIN</p> </td>
             <td class="arrival-time"><p class="number">15</p> MINUTES <br><br> <p class="time"> 8:50AM</p></td>
-            <td class="right-arrow"><img src="images/arrow_right.png"></td>
+            <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
           <tr class="table-data">
             <td class="bus-line">124</td>
             <td class="bus-destination-single">NAVY PIER <br><br><br> <p class="frequency-single"> EVERY 10 MIN</p> </td>
             <td class="arrival-time"><p class="number">8</p> MINUTES <br><br> <p class="time"> 8:43AM</p></td>
-            <td class="right-arrow"><img src="images/arrow_right.png"></td>
+            <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
         </tbody>
       </table>
 
       <div class="direction-northbound">
-        <h1>NORTHBOUND</h1>
-        <img src="images/arrow_up.png" class="up-arrow">
+        <h2>NORTHBOUND</h2>
+        <i class="fas fa-chevron-up"></i>
       </div>
 
       <table>
@@ -67,14 +74,14 @@
             <td class="bus-line">151</td>
             <td class="bus-destination-single">DEVON/CLARKE <br><br><br> <p class="frequency-single"> EVERY 16 MIN</p> </td>
             <td class="arrival-time"><p class="number">14</p> MINUTES <br><br> <p class="time"> 8:49AM</p></td>
-            <td class="right-arrow"><img src="images/arrow_right.png"></td>
+            <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
         </tbody>
       </table>
 
       <div class="direction-southbound">
-        <h1>SOUTHBOUND</h1>
-        <img src="images/arrow_up.png" class="up-arrow">
+        <h2>SOUTHBOUND</h2>
+        <i class="fas fa-chevron-up"></i>
       </div>
 
       <table>
@@ -83,20 +90,20 @@
               <td class="bus-line">J14</td>
               <td class="bus-destination">103RD/ </br> STONY ISLAND <br><br> <p class="frequency"> EVERY 15 MIN</p> </td>
               <td class="arrival-time"><p class="number">15</p> MINUTES <br><br> <p class="time"> 8:50AM</p></td>
-              <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
           <tr class="table-data">
               <td class="bus-line">60</td>
               <td class="bus-destination-single">NAVY PIER <br><br><br> <p class="frequency-single"> EVERY 10 MIN</p> </td>
               <td class="arrival-time"><p class="number">6</p> MINUTES <br><br> <p class="time"> 8:41AM</p></td>
-              <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
         </tbody>
       </table>
 
       <div class="direction-rerouted">
-        <h1>REROUTED</h1>
-        <img src="images/arrow_up.png" class="up-arrow">
+        <h2>REROUTED</h2>
+        <i class="fas fa-chevron-up"></i>
       </div>
 
       <table>
@@ -105,14 +112,14 @@
             <td class="bus-line-rerouted">6x</td>
             <td class="bus-destination-rr">JACKSON </br> PARK EXPRESS <br><br> <p class="frequency-rr"> N/A</p> </td>
             <td class="arrival-time-rr"><p class="number">20</p> MINUTES <br><br> <p class="time"> 8:55AM</p></td>
-            <td class="right-arrow"><img src="images/arrow_right.png"></td>
+            <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
         </tbody>
       </table>
 
       <div class="direction-oos">
-        <h1>OUT OF SERVICE</h1>
-        <img src="images/arrow_up.png" class="up-arrow">
+        <h2>OUT OF SERVICE</h2>
+        <i class="fas fa-chevron-up"></i>
       </div>
 
       <table>
@@ -121,19 +128,19 @@
             <td class="bus-line-oos">4</td>
             <td class="bus-destination-single">COTTAGE GROVE <br><br><br> <p class="frequency-single"> RESUMES 12:10AM</p> </td>
             <td class="arrival-time"><p class="number-oos">N/A</p></td>
-            <td class="right-arrow"><img src="images/arrow_right.png"></td>
+            <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
           <tr class="table-data-line">
             <td class="bus-line-oos">20</td>
             <td class="bus-destination-single">MADISON <br><br><br> <p class="frequency-single"> RESUMES 12:10AM</p> </td>
             <td class="arrival-time"><p class="number-oos">N/A</p></td>
-            <td class="right-arrow"><img src="images/arrow_right.png"></td>
+            <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
           <tr class="table-data">
             <td class="bus-line-oos">157</td>
             <td class="bus-destination">STREETERVILLE/ </br> TAYLOR <br><br> <p class="frequency"> RESUMES 6:00AM</p> </td>
             <td class="arrival-time"><p class="number-oos">N/A</p></td>
-            <td class="right-arrow"><img src="images/arrow_right.png"></td>
+            <td class="right-arrow"><i class="fas fa-chevron-right"></i></td>
           </tr>
         </tbody>
       </table>
